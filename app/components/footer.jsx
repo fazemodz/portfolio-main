@@ -45,7 +45,7 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    <p className="mt-4 text-center text-sm text-gray-500 lg:mt-0 lg:text-right dark:text-gray-400">
+                    <p className="mt-4 text-center text-sm text-white lg:mt-0 lg:text-right text-white">
                         Copyright &copy; 2025. All rights reserved.
                     </p>
                 </div>

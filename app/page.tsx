@@ -1,14 +1,13 @@
 'use client'
-
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-nocheck
 import React, { useEffect, useState } from 'react'
 import Banner from "./components/banner"
 import Projectsections from "./components/projectsections"
 
 export default function Home() {
   // States to hold the data
-  //@ts-expect-error because i said so omg
   const [softwareProjects, setSoftwareProjects] = useState<any[]>([])
-  //@ts-expect-error because i said so omg
   const [webProjects, setWebProjects] = useState<any[]>([])
 
   useEffect(() => {

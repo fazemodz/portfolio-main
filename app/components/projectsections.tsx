@@ -5,7 +5,7 @@ interface Projectsectionsdata {
   ProjectDescription: string;
   ProjectImage: string;
   ProjectURL: string;
-  ProjectSourceCodeURL: string;
+  ProjectSourceCodeURL?: string;
 }
 
 const Projectsections: React.FC<Projectsectionsdata> = ({
@@ -41,15 +41,18 @@ const Projectsections: React.FC<Projectsectionsdata> = ({
             <span className="text-sm font-medium">Visit Project</span>
           </a>
 
-          {/* Source Code Button */}
-          <a
-            className="inline-flex items-center gap-2 rounded-sm border border-green-600 bg-green-600 px-8 py-3 text-white hover:bg-transparent hover:text-green-600 focus:ring-3 focus:outline-hidden"
-            target="_blank"
-            rel="noopener noreferrer"
-            href={ProjectSourceCodeURL}
-          >
-            <span className="text-sm font-medium">View Source Code</span>
-          </a>
+          {ProjectSourceCodeURL && (
+            <a
+              className="inline-flex items-center gap-2 rounded-sm border border-green-600 bg-green-600 px-8 py-3 text-white hover:bg-transparent hover:text-green-600 focus:ring-3 focus:outline-hidden"
+              target="_blank"
+              rel="noopener noreferrer"
+              href={ProjectSourceCodeURL}
+            >
+              <span className="text-sm font-medium">View Source Code</span>
+            </a>
+          )}
+
+
         </div>
       </div>
     </section>

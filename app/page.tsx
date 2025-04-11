@@ -6,7 +6,9 @@ import Projectsections from "./components/projectsections"
 
 export default function Home() {
   // States to hold the data
+  //@ts-ignore
   const [softwareProjects, setSoftwareProjects] = useState<any[]>([])
+  //@ts-ignore
   const [webProjects, setWebProjects] = useState<any[]>([])
 
   useEffect(() => {

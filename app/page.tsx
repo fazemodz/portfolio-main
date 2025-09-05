@@ -17,7 +17,7 @@ export default function Home() {
   const [webProjects, setWebProjects] = useState<Project[]>([])
   const [gameProjects, setGameProjects] = useState<Project[]>([])
   useEffect(() => {
-    fetch('/projects.json')
+    fetch('https://f6o4iklysym30j8d.public.blob.vercel-storage.com/Portfolio/Data/projects.json')
       .then((response) => response.json())
       .then((data) => {
         setSoftwareProjects(data.softwareProjects)

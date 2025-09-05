@@ -34,7 +34,7 @@
       "ProjectTitle": "YouTube Search API Project Reworked",
       "ProjectDescription": "I decided to refactor the YouTube Search API Project to use Next.js for better performance, easier server-side rendering, and simplified domain management. This project taught me the importance of API integration, state management, and how to improve user experience through real-time data updates.",
       "ProjectImage": "./images/YTSeachProject.png",
-      "ProjectURL": "https://youtubevideosearchfrontend.projectredacted.org/",
+      "ProjectURL": "https://youtube-video-tool-rewrite.vercel.app/5oQVTnq-UKk",
       "ProjectSourceCodeURL": "https://github.com/fazemodz/youtube-search-api"
     }
   ],

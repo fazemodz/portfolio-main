@@ -20,24 +20,31 @@
       "ProjectTitle": "YouTube Search API Project",
       "ProjectDescription": "For my first full-fledged React.js project, I built an app that allows users to search for YouTube videos and retrieve detailed information about both the videos and the associated channels. This project utilized the YouTube Data API to fetch data and display it dynamically. I faced the challenge of managing asynchronous data fetching while ensuring the UI remained responsive and user-friendly. The original version of this project required two separate domains—one for the frontend and one for the API—which introduced additional complexity in handling cross-origin requests and managing session states. The project is currently being refactored in Next.js for better performance, easier server-side rendering, and simplified domain management. This project taught me the importance of API integration, state management, and how to improve user experience through real-time data updates.",
       "ProjectImage": "./images/YTSearchProjectOld.png",
+      "ProjectURL": "https://youtube-video-tool-rewrite.vercel.app/M2WTUoy4y6E",
+      "ProjectSourceCodeURL": "https://github.com/fazemodz/youtube-video-tool-rewrite"
+    }, 
+     {
+      "ProjectTitle": "My portfolio",
+      "ProjectDescription": "This is my portfolio website, it was built using Next.js and Tailwind CSS. It's a simple website that displays my projects and my skills.",
+      "ProjectImage": "./images/Portfolio.png",
+      "ProjectURL": "https://projectredacted.org",
+      "ProjectSourceCodeURL": "https://github.com/fazemodz/portfolio-main"
+    },
+    {
+      "ProjectTitle": "YouTube Search API Project Reworked",
+      "ProjectDescription": "I decided to refactor the YouTube Search API Project to use Next.js for better performance, easier server-side rendering, and simplified domain management. This project taught me the importance of API integration, state management, and how to improve user experience through real-time data updates.",
+      "ProjectImage": "./images/YTSeachProject.png",
       "ProjectURL": "https://youtubevideosearchfrontend.projectredacted.org/",
       "ProjectSourceCodeURL": "https://github.com/fazemodz/youtube-search-api"
     }
   ],
   "gameProjects": [
     {
-      "ProjectTitle": "Rocket Game (WIP)",
-      "ProjectDescription": "A 2D physics-based rocket game in Unity. Tow boulders using tethers, manage limited fuel, and dodge obstacles. Work in progress with gameplay refinement ongoing. The game aims to combine fun physics-based mechanics with challenging obstacles, creating an engaging experience. The game includes features like tethering mechanics, fuel management, and obstacle navigation, all enhanced with realistic physics for better gameplay interaction.",
-      "ProjectImage": "./images/RocketGame.png",
-      "ProjectURL": "https://github.com/fazemodz/rocketgame",
-      "ProjectSourceCodeURL": "https://github.com/fazemodz/rocketgame"
-    },
-    {
-      "ProjectTitle": "VR Shooter (CW2)",
-      "ProjectDescription": "A VR shooter inspired by Pavlov VR. Created for a university coursework project in Unity with full VR interactions and mechanics. The game focuses on offering a realistic VR shooting experience, where users can interact with their environment using motion controllers. The main goal was to replicate a real-life shooting experience with dynamic environments and multiplayer support in Unity. This project helped me learn how to implement VR mechanics such as hand-tracking, gun mechanics, and player movement within Unity and the SteamVR SDK.",
-      "ProjectImage": "./images/VRGame.png",
-      "ProjectURL": "https://github.com/fazemodz/vrshooter",
-      "ProjectSourceCodeURL": "https://github.com/fazemodz/vrshooter"
+      "ProjectTitle": "Doyag",
+      "ProjectDescription": "A fast-paced platform jumper built in Unreal Engine 5 over the course of one week for a work event. The game features responsive movement through Unreal’s animation matching system and offers three levels—Tutorial, Hard, and Extreme—to provide a clear progression of challenge. The project focused on delivering smooth character control, concise level design, and replayable difficulty modes within a short development timeframe. This game was put out on itch.io and got a lot of positive feedback from the community.",
+      "ProjectImage": "./images/Doyag.png",
+      "ProjectURL": "https://littlemouseaddie.itch.io/doyag",
+      "ProjectSourceCodeURL": "https://github.com/fazemodz/DeathJump-Prototype/tree/main/game%20file"
     }
   ]
 }

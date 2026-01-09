@@ -2,53 +2,26 @@ import React from 'react'
 
 export default function Navbar() {
     return (
-        <header className="bg-white dark:bg-gray-900 sticky top-0 z-50 shadow">
-            <div className="mx-auto flex h-16 max-w-screen-xl items-center justify-center px-4 sm:px-6 lg:px-8">
-                <nav aria-label="Global">
-                    <ul className="flex items-center justify-center gap-6 text-sm text-center">
-                        {/* <li>
+        <nav className="fixed top-0 w-full backdrop-blur-md bg-slate-950/80 border-b border-slate-800 z-50">
+            <div className="max-w-7xl mx-auto px-6 py-4">
+                <div className="flex justify-between items-center">
+                    <div className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+                        &lt;Alex /&gt;
+                    </div>
+                    <div className="flex gap-8">
+                        {['About', 'Skills', 'Software', 'Web', 'Game', 'Contact'].map((item) => (
                             <a
-                                className="text-gray-500 transition hover:text-gray-700 dark:text-white dark:hover:text-white/75"
-                                href="#aboutme"
+                                key={item}
+                                href={`#${item.toLowerCase()}`}
+                                className="text-sm hover:text-blue-400 transition-colors relative group"
                             >
-                                About
+                                {item}
+                                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-400 group-hover:w-full transition-all duration-300"></span>
                             </a>
-                        </li> */}
-                        <li>
-                            <a
-                                className="text-gray-500 transition hover:text-gray-700 dark:text-white dark:hover:text-white/75"
-                                href="#software"
-                            >
-                                Software Projects
-                            </a>
-                        </li>
-                        <li>
-                            <a
-                                className="text-gray-500 transition hover:text-gray-700 dark:text-white dark:hover:text-white/75"
-                                href="#web"
-                            >
-                                Web Projects
-                            </a>
-                        </li>
-                       {/* <li>
-                            <a
-                                className="text-gray-500 transition hover:text-gray-700 dark:text-white dark:hover:text-white/75"
-                                href="#game"
-                            >
-                                Game Projects
-                            </a>
-                        </li>
-                         <li>
-                            <a
-                                className="text-gray-500 transition hover:text-gray-700 dark:text-white dark:hover:text-white/75"
-                                href="#contact"
-                            >
-                                Contact Me
-                            </a>
-                        </li> */}
-                    </ul>
-                </nav>
+                        ))}
+                    </div>
+                </div>
             </div>
-        </header>
+        </nav>
     )
 }

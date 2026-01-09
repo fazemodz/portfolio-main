@@ -35,7 +35,7 @@ export default function Banner() {
           </div>
           <h1 className="text-6xl md:text-7xl font-bold mb-6 leading-tight">
           <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-            Hello! I'm Alex
+            Hello! I&apos;m Alex
           </span>
           </h1>
           <p className="text-xl md:text-2xl text-slate-400 mb-8 max-w-3xl mx-auto leading-relaxed">

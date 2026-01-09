@@ -1,8 +1,6 @@
 'use client'
 import React, { useEffect, useState } from 'react'
 import Banner from './components/banner'
-import Navbar from './components/navbar'
-import Footer from './components/footer'
 import Projectsections from './components/projectsections'
 import Skills from './components/skills'
 

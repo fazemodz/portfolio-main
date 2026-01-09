@@ -118,7 +118,7 @@ export default function Home() {
                 <div className="max-w-4xl mx-auto px-6 text-center">
                     <h2 className="text-4xl font-bold mb-4">
             <span className="bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
-              Let's Connect
+              Let&apos;s Connect
             </span>
                     </h2>
                     <p className="text-slate-400 mb-12 text-lg">Open to opportunities and collaborations</p>
